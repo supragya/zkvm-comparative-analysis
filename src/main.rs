@@ -67,7 +67,7 @@ fn keccak256(input: &[u8]) -> [u8; 32] {
     hasher.finalize().into()
 }
 
-fn blake2b(input: &[u8]) -> [u8; 32] {
+fn blake2b(input: &[u8]) -> [u8; 64] {
     let mut hasher = blake2::Blake2b::new();
     hasher.update(input);
     hasher.finalize().into()

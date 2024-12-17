@@ -1,0 +1,130 @@
+   Compiling methods v0.1.0 (/Users/ecluser/Projects/supragya/zkvm-comparative-analysis/r0_sha256_noprecompile/methods)
+   Compiling host v0.1.0 (/Users/ecluser/Projects/supragya/zkvm-comparative-analysis/r0_sha256_noprecompile/host)
+    Finished `dev` profile [optimized + debuginfo] target(s) in 4.15s
+     Running `target/debug/host 2`
+RUNNING TEST 1 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:52.816175Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 1.968125ms
+[2m2024-12-17T14:56:52.816198Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:52.816203Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:52.816206Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 13232 (10.10%)
+[2m2024-12-17T14:56:52.816210Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:52.816214Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 39752 (30.33%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 2 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:52.897536Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 1.711083ms
+[2m2024-12-17T14:56:52.897571Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:52.897575Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:52.897578Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 13372 (10.20%)
+[2m2024-12-17T14:56:52.897583Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:52.897603Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 39612 (30.22%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 3 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:52.985218Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 2.29225ms
+[2m2024-12-17T14:56:52.985243Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:52.985268Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:52.985272Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 13644 (10.41%)
+[2m2024-12-17T14:56:52.985277Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:52.985280Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 39340 (30.01%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 4 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.066799Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 1.885833ms
+[2m2024-12-17T14:56:53.066822Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.066826Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:53.066829Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 14219 (10.85%)
+[2m2024-12-17T14:56:53.066862Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:53.066865Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 38765 (29.58%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 5 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.148660Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 2.195291ms
+[2m2024-12-17T14:56:53.148685Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.148688Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:53.148691Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 15367 (11.72%)
+[2m2024-12-17T14:56:53.148695Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:53.148697Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 37617 (28.70%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 6 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.229032Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 2.903542ms
+[2m2024-12-17T14:56:53.229059Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.229062Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:53.229065Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 23907 (18.24%)
+[2m2024-12-17T14:56:53.229068Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:53.229070Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 29077 (22.18%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 7 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.310588Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 3.620208ms
+[2m2024-12-17T14:56:53.310610Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.310614Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 131072
+[2m2024-12-17T14:56:53.310617Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 34478 (26.30%)
+[2m2024-12-17T14:56:53.310621Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 78088 (59.58%)
+[2m2024-12-17T14:56:53.310624Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 18506 (14.12%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 8 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.397075Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 5.99875ms
+[2m2024-12-17T14:56:53.397118Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.397123Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 262144
+[2m2024-12-17T14:56:53.397141Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 55620 (21.22%)
+[2m2024-12-17T14:56:53.397145Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 80276 (30.62%)
+[2m2024-12-17T14:56:53.397148Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 126248 (48.16%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 9 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.486096Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 9.737542ms
+[2m2024-12-17T14:56:53.486369Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.486374Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 262144
+[2m2024-12-17T14:56:53.486403Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 97904 (37.35%)
+[2m2024-12-17T14:56:53.486408Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 80276 (30.62%)
+[2m2024-12-17T14:56:53.486410Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 83964 (32.03%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 10 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.582510Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 16.435416ms
+[2m2024-12-17T14:56:53.582537Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.582540Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 524288
+[2m2024-12-17T14:56:53.582542Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 182472 (34.80%)
+[2m2024-12-17T14:56:53.582546Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 80276 (15.31%)
+[2m2024-12-17T14:56:53.582548Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 261540 (49.88%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 11 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.692085Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 33.104083ms
+[2m2024-12-17T14:56:53.692116Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.692120Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 524288
+[2m2024-12-17T14:56:53.692128Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 351608 (67.06%)
+[2m2024-12-17T14:56:53.692132Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 82464 (15.73%)
+[2m2024-12-17T14:56:53.692135Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 90216 (17.21%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 12 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:53.831422Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 63.073958ms
+[2m2024-12-17T14:56:53.831452Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-12-17T14:56:53.831464Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 1048576
+[2m2024-12-17T14:56:53.831467Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 689880 (65.79%)
+[2m2024-12-17T14:56:53.831470Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 86840 (8.28%)
+[2m2024-12-17T14:56:53.831473Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 271856 (25.93%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 13 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:54.034024Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 125.514042ms
+[2m2024-12-17T14:56:54.034056Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 2
+[2m2024-12-17T14:56:54.034084Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 1572864
+[2m2024-12-17T14:56:54.034088Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 1366424 (86.87%)
+[2m2024-12-17T14:56:54.034091Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 152894 (9.72%)
+[2m2024-12-17T14:56:54.034093Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 53546 (3.40%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.
+RUNNING TEST 14 -----------------------------
+WARNING: proving in dev mode. This will not generate valid, secure proofs.
+[2m2024-12-17T14:56:54.361571Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 248.3585ms
+[2m2024-12-17T14:56:54.361617Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 3
+[2m2024-12-17T14:56:54.361621Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 3145728
+[2m2024-12-17T14:56:54.361625Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 2719512 (86.45%)
+[2m2024-12-17T14:56:54.361629Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m paging cycles: 217854 (6.93%)
+[2m2024-12-17T14:56:54.361632Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m reserved cycles: 208362 (6.62%)
+WARNING: Proving in dev mode does not generate a valid receipt. Receipts generated from this process are invalid and should never be used in production.

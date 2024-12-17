@@ -21,13 +21,24 @@ fn main() {
         .init();
 
     for i in 1..15 {
-        let input: &[u8] = &read_bytes_from_file(&format!("testoutput/sha256/{}/input", 2usize.pow(i as u32) as usize)).unwrap();
-        let output: &[u8] = &read_bytes_from_file(&format!("testoutput/sha256/{}/output", 2usize.pow(i as u32) as usize)).unwrap();
+        println!("RUNNING TEST {} -----------------------------", i);
+        
+        let input: &[u8] = &read_bytes_from_file(&format!("../testoutput/sha256/{}/input", 2usize.pow(i as u32) as usize)).unwrap();
+        let output: &[u8] = &read_bytes_from_file(&format!("../testoutput/sha256/{}/output", 2usize.pow(i as u32) as usize)).unwrap();
+
+        let input = hex::decode(&input).unwrap();
+        let output = hex::decode(&output).unwrap();
+        
+        // println!("input: {:?}", input);
+        // println!("output {}: {:?}", output.len(), output);
+
+        let zkvm_input = core::HashingData {
+            input: input.to_vec(),
+            output: output.try_into().unwrap(),
+        };
 
         let env = ExecutorEnv::builder()
-            .write(&input)
-            .unwrap()
-            .write(&output)
+            .write(&zkvm_input)
             .unwrap()
             .build()
             .unwrap();
@@ -44,7 +55,8 @@ fn main() {
         // extract the receipt.
         let receipt = prove_info.receipt;
 
-        let _output: u32 = receipt.journal.decode().unwrap();
+        let output: bool = receipt.journal.decode().unwrap();
+        assert!(output);
 
         receipt
             .verify(SHA2_HASHER_RISC0_GUEST_ID)
